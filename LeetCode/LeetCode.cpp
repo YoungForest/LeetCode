@@ -3,10 +3,23 @@
 
 #include "pch.h"
 #include <iostream>
+#include <string>
+#include <sstream>
+#include "Solution179.h"
 
-int main()
-{
-    std::cout << "Hello World!\n"; 
+using namespace std;
+
+int main() {
+	string line;
+	while (getline(cin, line)) {
+		vector<int> nums = stringToIntegerVector(line);
+
+		string ret = Solution179().largestNumber(nums);
+
+		string out = (ret);
+		cout << out << endl;
+	}
+	return 0;
 }
 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu
