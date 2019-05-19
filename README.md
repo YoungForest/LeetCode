@@ -1,6 +1,6 @@
 ```bash
 # build project
-g++ -std=c++11 test/main.cpp -lgtest -o main
+g++ -std=c++11 test/main.cpp -lgtest -lpthread -o main
 # run all test 
 ./main 
 # run filter tests
