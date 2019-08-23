@@ -1,6 +1,7 @@
 #include "Solution235Test.cpp"
 #include "Solution98Test.cpp"
 #include "Solution421Test.cpp"
+#include "MorrisTraversalTest.cpp"
 #include "gtest/gtest.h"
 
 int main(int argc, char **argv) {
