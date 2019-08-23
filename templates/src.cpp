@@ -7,6 +7,8 @@ class SolutionXXX {
   public:
     SolutionXXX();
     ~SolutionXXX();
+  private:
+  public:
 };
 
 SolutionXXX::SolutionXXX() {}
